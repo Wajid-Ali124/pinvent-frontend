@@ -24,7 +24,7 @@ const ProductList = ({ products, isLoading }) => {
 
     const shortenText = (text, n) => {
         if (text.length > n) {
-            const ShortText = text.substring(0, n).concate("...")
+            const ShortText = text.substring(0, n).concat("...")
             return ShortText
         }
         return text
